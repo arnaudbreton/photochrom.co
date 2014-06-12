@@ -1,0 +1,88 @@
+html{
+height:100%;
+}
+
+body{
+color: #fff;
+background-image: url("http://media.giphy.com/media/NuIQvLkkdnGGk/giphy.gif");
+font-family: 'Montserrat', sans-serif;font-size: small;
+height:100%;
+-webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale;
+background-repeat:no-repeat;
+background-position:center center;
+background-attachment:fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+}
+
+.wrapper{
+margin:0 auto;
+display:table;
+width:300px;
+height:100%;
+text-align:center;
+font-family: 'Montserrat', sans-serif;position:relative;
+}
+h1{
+font-family: 'Montserrat', sans-serif;margin:0 0 10px 0;
+font-size:20px;
+font-weight: 200;
+}
+h2{
+font-size:16px;
+margin:0 auto;
+font-weight: 100;
+}
+
+a{
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+color: white;
+text-decoration: underline;
+}
+
+.align{
+display:table-cell;
+vertical-align:middle;
+}
+
+.gradient{
+background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPgo8bGluZWFyR3JhZGllbnQgaWQ9Imc0NjAiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzM4QUZGRiIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iI0UzMEUwRSIgb2Zmc2V0PSIxIi8+CjwvbGluZWFyR3JhZGllbnQ+CjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZzQ2MCkiIC8+Cjwvc3ZnPg==);
+background-image:-moz-linear-gradient(right, #fff539 0%, #e4ba2f 50%, #695151 100%);
+background-image:-o-linear-gradient(right,#fff539 0%,#e4ba2f 50%,#695151 100%);
+background-image:-webkit-linear-gradient(right,#fff539 0%,#e4ba2f 50%,#695151 100%);
+background-image:linear-gradient(right,##fff539 0%,#e4ba2f 50%,##695151 100%);
+opacity:0.4;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:105%;
+pointer-events:none;}
+
+.button{
+font-family: 'Montserrat', sans-serif;line-height:45px;
+font-size:16px;
+text-decoration:none!important;
+color:white;
+display:inline-block;
+padding:0 0px;
+margin:55px 10px;
+width:200px;
+background:#000 transparent;
+border: solid 2px #fff;
+transition: background-color 0.5s ease;
+}
+
+
+.button:hover{
+background: rgba(0, 0, 0, 0.5);
+}
+
+
