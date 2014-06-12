@@ -1,1 +1,1 @@
-www.photochrom.co
+photochrom.co
