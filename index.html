@@ -6,24 +6,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="">
 			<title>Photochrom</title>
-				<link type="text/css" href="wait.css" rel="stylesheet">
-				<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-				<link rel="icon" 
-      				  type="image/png" 
-                      href="http://i.imgur.com/ak7Ueho.png">
+			<link type="text/css" href="wait.css" rel="stylesheet">
+			<link rel="icon" 
+			  type="image/png" 
+              href="http://i.imgur.com/ak7Ueho.png">
+       <!-- 1. Load platform support before any code that touches the DOM. -->
+       <script src="bower_components/platform/platform.js"></script>
+       <!-- 2. Load the component using an HTML Import -->
+       <link rel="import" href="photochrom-element.html">
 	</head>
 	<body>
-		<div class="grayscale">
-			<div class="wrapper">
-				<div class="align">
-					<img src="http://i.imgur.com/vbuDqUD.png">
-					<a href="mailto:alex@photochrom.co" class="button">INQUIRE</a>
-					<a href="https://twitter.com/photochrom" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @photochrom</a>
-						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-						</script>
-				</div>
-			</div>
-		</div>	
+		<x-photochrom logoSrc="http://i.imgur.com/vbuDqUD.png" mailto="alex@photochrom.co" btnText="INQUIRE" bgSrc="http://media.giphy.com/media/NuIQvLkkdnGGk/giphy.gif" style="width:100%;height:100%">
+			<a href="https://twitter.com/photochrom" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @photochrom</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+			</script>
+		</x-photochrom>
 		<!--Removed gradient for the time being
 
 		<div class="gradient">

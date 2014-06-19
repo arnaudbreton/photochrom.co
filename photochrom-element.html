@@ -1,0 +1,17 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<polymer-element name="x-photochrom" noscript attributes="logoSrc bgSrc btnText mailto">
+  <template>
+  	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  	<link type="text/css" href="polymer-element.css" rel="stylesheet">
+    <div class="grayscale" style="background-image:url({{bgSrc}});">
+    	<div class="wrapper">
+    		<div class="align">
+    			<img src="{{logoSrc}}">
+    			<a href="mailto:{{mailto}}" class="button">{{btnText}}</a>
+    			<content></content>
+    		</div>
+    	</div>
+    </div>	
+  </template>
+</polymer-element>
